@@ -1,0 +1,7 @@
+python-telegram-bot
+faster-whisper
+ollama
+python-dotenv
+sqlalchemy
+pydub
+ffmpeg-python
