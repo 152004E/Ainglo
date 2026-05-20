@@ -1,1 +1,6 @@
-# Constantes globales
+APP_NAME = "Ainglo"
+VERSION = "0.1.0"
+
+SUPPORTED_AUDIO_FORMATS = ["ogg", "mp3", "wav", "m4a"]
+MAX_AUDIO_DURATION_SECONDS = 120
+MAX_HISTORY_MESSAGES = 20

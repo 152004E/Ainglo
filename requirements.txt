@@ -1,7 +1,8 @@
 python-telegram-bot
-faster-whisper
-ollama
+google-genai
+groq
 python-dotenv
 sqlalchemy
 pydub
 ffmpeg-python
+faster-whisper

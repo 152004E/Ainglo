@@ -1,2 +1,4 @@
-# Script para lanzar la app principal
-from app.main import *
+from app.main import main
+
+if __name__ == "__main__":
+    main()
