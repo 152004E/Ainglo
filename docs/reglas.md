@@ -112,15 +112,20 @@ Toda la gestión de Git y GitHub será realizada manualmente por el propietario 
 
 ---
 
-## 8. Mantener enfoque en bajo costo y herramientas open source
+## 8. Mantener enfoque en bajo costo y APIs cloud
 
 Las soluciones propuestas deben priorizar:
 
-- herramientas gratuitas,
-- modelos open source,
-- ejecución local,
-- bajo consumo de recursos,
+- APIs gratuitas o freemium,
+- proveedores cloud en lugar de ejecución local pesada,
+- bajo consumo de recursos locales,
+- arquitectura modular para cambiar de proveedor fácilmente,
 - y facilidad de escalabilidad futura.
+
+Queda excluido el uso de:
+- inferencia local con modelos LLM,
+- pipelines que dependan de GPU potente,
+- descarga y ejecución de modelos de lenguaje locales (Ollama, etc.).
 
 ---
 
