@@ -12,7 +12,15 @@ def create_bot():
     if not TELEGRAM_TOKEN:
         raise ValueError("TELEGRAM_TOKEN not set in .env file")
 
-    app = ApplicationBuilder().token(TELEGRAM_TOKEN).build()
+    app = (
+    ApplicationBuilder()
+    .token(TELEGRAM_TOKEN)
+    .connect_timeout(30)
+    .read_timeout(30)
+    .write_timeout(30)
+    .pool_timeout(30)
+    .build()
+)
 
     app.add_handler(CommandHandler("start", start_handler))
     app.add_handler(CommandHandler("reset", reset_handler))

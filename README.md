@@ -80,3 +80,4 @@ MVP en desarrollo activo. Ver `docs/plan_desarrollo.md` para el plan completo.
 - Panel web de progreso
 - Aplicación móvil
 - Sistema premium escalable
+- source venv/bin/activate 
